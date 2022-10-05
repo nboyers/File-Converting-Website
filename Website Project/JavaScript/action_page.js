@@ -17,7 +17,7 @@ function updateForm() {
         alert("Thank you. Your response has been recorded");
         clearForm();
     } else { 
-        alert('Thank you,' + FirstName.value + ' ' + LastName.value +' your response has been recorded.');
+        alert('Thank you, ' + FirstName.value + ' ' + LastName.value +' your response has been recorded.');
         clearForm();
     }
   }
