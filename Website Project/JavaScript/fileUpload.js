@@ -2,9 +2,9 @@ const AWS = require('aws-sdk')
 
 //Bucket Configurations
 
-var bucketName = "ift301-file-converter-bucket";
-var bucketRegion = "us-east-1";
-var IdentityPoolId = "Cognito_s3cogitoift301Auth_Role";
+let  bucketName     =  BUCKET_REGION;
+let  bucketRegion   =  BUCKET_NAME;
+let  IdentityPoolId =  IDENTITY_POOL_ID;
 
 AWS.config.update({
     region: bucketRegion,
